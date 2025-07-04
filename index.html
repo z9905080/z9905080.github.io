@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shi-Ting Hsiao - Portfolio</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; line-height: 1.6; }
+        h1, h2, h3 { color: #333; }
+        .container { max-width: 800px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        .section { margin-bottom: 20px; }
+        .section h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .job, .education-item { margin-bottom: 15px; }
+        .job h3 { margin-bottom: 5px; }
+        .job-title { font-style: italic; color: #555; }
+        .date { color: #777; font-size: 0.9em; }
+        ul { padding-left: 20px; }
+        .skills ul { list-style-type: none; padding-left: 0; }
+        .skills li { background: #f0f0f0; margin: 5px 0; padding: 5px 10px; border-radius: 4px; display: inline-block; }
+        .contact a { text-decoration: none; color: #007bff; }
+        .contact a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="section">
+            <h1>Shi-Ting Hsiao</h1>
+            <p class="contact">
+                Email: <a href="mailto:z9905080@gmail.com">z9905080@gmail.com</a> |
+                LinkedIn: <a href="https://www.linkedin.com/in/shi-ting-hsiao-71b564174" target="_blank">linkedin.com/in/shi-ting-hsiao-71b564174</a> |
+                Location: Taichung City, Taiwan
+            </p>
+        </header>
+
+        <section class="section summary">
+            <h2>Summary</h2>
+            <ul>
+                <li>8+ years of software engineering experience specializing in cloud-native architecture, AI platform development, and distributed systems</li>
+                <li>4+ years of leadership experience from technical mentorship to formal management roles, currently leading Kolr product R&D team</li>
+                <li>Currently serving as Kolr R&D Lead at iKala Interactive Media Inc., leading strategic technical initiatives and establishing technical standards</li>
+                <li>Achieved significant technical milestones including crawler service optimization (+40% efficiency), ML pipeline implementation serving million-scale requests, and successful system architecture improvements across gaming and AI platforms</li>
+            </ul>
+        </section>
+
+        <section class="section experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>iKala Interactive Media Inc., Taiwan</h3>
+                <p class="job-title">Kolr R&D Lead</p>
+                <p class="date">Nov. 2024 - Present</p>
+                <ul>
+                    <li>10% Hands-on coding in POC projects, 30% Technical leadership and system design, 40% People management, 20% Strategic planning and cross-team coordination</li>
+                    <li>Leading Kolr Product Division R&D team development and execution</li>
+                    <li>Providing technical leadership support for AI Platform team initiatives (without direct report line)</li>
+                    <li>Role combines Tech Lead and People Manager responsibilities for Kolr product line</li>
+                    <li><strong>Primary Responsibilities:</strong>
+                        <ul>
+                            <li>Leading product development strategy and execution for Kolr social media analytics platform</li>
+                            <li>Managing development resources and product delivery timelines for market-facing products</li>
+                            <li>Overseeing feature roadmap and technical debt management for core product offerings</li>
+                            <li>Supporting AI Platform development as Tech Lead, providing technical guidance and architectural consultation</li>
+                            <li>Establishing technical standards and best practices across Kolr R&D teams</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="job-title">Architect</p>
+                <p class="date">Jul. 2023 - Dec. 2024</p>
+                <ul>
+                    <li>20% Hands-on development in Golang and Python, 50% Technical leadership on system design and architecture reviews, 20% Cross-team collaboration, 10% Documentation and standards</li>
+                    <li>Designed and reviewed cross-team interfaces enhancing collaboration efficiency by 35%</li>
+                    <li>Authored High-Level and Detailed Design Documents for AI department ensuring technical excellence across 15+ projects</li>
+                    <li>Collaborated with Tech Leads to formulate internal R&D Development Guidelines promoting best practices company-wide</li>
+                    <li>Provided expert technical design consultations to Tech Leads contributing to strategic planning</li>
+                </ul>
+                <p class="job-title">Senior Software Engineer</p>
+                <p class="date">Jul. 2022 - Jul. 2023</p>
+                <ul>
+                    <li>60% Hands-on development in Golang and Python (ML inference), 25% Technical leadership, 15% Team collaboration</li>
+                    <li>Refactored crawler service and established new system architecture improving efficiency by 40% and scalability to handle 5M+ daily requests</li>
+                    <li>Developed Datahub system facilitating data integration and analytics for MarTech RD team, processing PB-scale daily data volume</li>
+                    <li>Designed and implemented ML Inference and ETL pipelines, seamlessly integrating into Datahub system enhancing data processing capabilities by 50%</li>
+                    <li>Led cross-functional development team of Backend Engineers, ML Engineers, Data Scientists, and Data Engineers ensuring project success</li>
+                    <li>Deployed and managed services on Kubernetes using Helm Charts and Terraform, streamlining provisioning and configuration of 20+ containerized applications</li>
+                    <li>Transitioned to ArgoCD for Kubernetes deployments, optimizing continuous delivery pipeline and reducing deployment time by 60%</li>
+                    <li>Implemented OpenTelemetry for robust tracing and metrics, utilizing LGTM stack (Loki, Grafana, Tempo, Metrics) for comprehensive monitoring</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Lintor International Co., Ltd., Taiwan</h3>
+                <p class="job-title">Senior Software Engineer (Golang)</p>
+                <p class="date">Aug. 2019 - Jul. 2022</p>
+                <ul>
+                    <li>70% Hands-on development, 20% Technical leadership, 10% Team mentoring</li>
+                    <li>Pioneered design and implementation of core game logic system, successfully rolling out 33 diverse games (slots, table games, fish machines) serving 10K+ daily active users</li>
+                    <li>Supervised and mentored team of 3 Junior Backend Engineers, enhancing their Golang skills and promoting professional growth</li>
+                    <li>Engineered robust Golang server framework laying foundation for scalable backend services</li>
+                    <li>Architected and implemented microservice architecture to handle gRPC and HTTP protocols, optimizing system interoperability and reducing response time by 45%</li>
+                    <li>Designed and executed GitLab CI/CD pipelines for efficient service deployment on GCS (Docker Swarm) and GKS</li>
+                    <li>Achieved rapid system onboarding within 6 months, demonstrating exceptional project execution capabilities</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>CHUNG YO INTERNET INFORMATION CO., LTD., Taiwan</h3>
+                <p class="job-title">Software Engineer (Golang)</p>
+                <p class="date">Nov. 2018 - Aug. 2019</p>
+                <ul>
+                    <li>80% Hands-on development, 15% System design, 5% Collaboration</li>
+                    <li>Maintained and enhanced platform system services ensuring high reliability (99.5% uptime) and performance</li>
+                    <li>Innovatively designed and implemented discount and rebate service flows, enriching platform features and improving user engagement by 25%</li>
+                    <li>Developed Linux VM process management service using WebSockets, improving system manageability and performance</li>
+                    <li>Collaborated with slot-game team to develop engaging games and refactored code architecture for enhanced performance</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Woer Digital Technology Co., Ltd., Taiwan</h3>
+                <p class="job-title">Software Engineer</p>
+                <p class="date">Nov. 2017 - Oct. 2018</p>
+                <ul>
+                    <li>90% Hands-on development in C#, 10% Game logic design</li>
+                    <li>Implemented server framework in C#, laying groundwork for robust backend services</li>
+                    <li>Developed engaging and complex game logic for slot games, contributing to company's gaming portfolio and user satisfaction</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Feng Chia University, Taichung, Taiwan</h3>
+                <p>B.S. in Computer Science and Information Engineering</p>
+                <p class="date">2012 - 2016</p>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>Languages: Golang, Python, C#, PHP</li>
+                <li>Cloud Native: Kubernetes, Helm, Terraform, ArgoCD, Docker</li>
+                <li>Databases: MySQL, PostgreSQL, ScyllaDB, ElasticSearch, BigQuery, Redis</li>
+                <li>Cloud Platforms: Google Cloud Platform (GCP), AWS, Azure</li>
+                <li>Storage: Google Cloud Storage (GCS), AWS S3</li>
+                <li>Observability: ELK Stack, LGTM Stack (Loki, Grafana, Tempo, Metrics), OpenTelemetry</li>
+                <li>CI/CD: Helm Chart, Terraform, ArgoCD, GitLab CI</li>
+                <li>Frameworks: GIN, go-micro, go-kit, Flask, FastAPI</li>
+                <li>Data Processing: Apache Spark, Apache Flink, BigQuery, Pub/Sub</li>
+                <li>AI/ML: Machine Learning Inference, ETL Pipelines, Neural Networks</li>
+                <li>Architecture: Microservices, Domain-Driven Design (DDD), Software Design Patterns</li>
+                <li>Workflow: Argo Workflow</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
